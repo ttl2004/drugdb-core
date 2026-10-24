@@ -1,0 +1,11 @@
+# Thư mục không đưa lên git
+docs/
+output/
+tools/
+
+# Biến môi trường (giữ lại .env.example làm mẫu)
+.env
+
+# Python
+__pycache__/
+*.pyc
