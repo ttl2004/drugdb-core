@@ -1,9 +1,3 @@
-"""
-Cột 18 — Tác dụng. Tiếng Anh.
-Thuốc OTC: mục Purpose (LOINC 55105-1).
-Thuốc kê đơn: Mechanism of Action (LOINC 43679-0), dự phòng Clinical Pharmacology (LOINC 34090-1).
-"""
-
 from etl2_csdl_qg.common.label_text import document_of, text_for_codes
 
 HEADER = "Tác dụng"

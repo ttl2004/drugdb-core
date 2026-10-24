@@ -1,14 +1,3 @@
-"""
-pipeline.py — File chính của ETL 2: CSV của ETL 1 -> 21 cột của CSDL Dược quốc gia.
-
-Các bước, chạy theo thứ tự (chọn bằng settings.steps):
-    build      đọc CSV của ETL 1, tạo 21 cột, ghi ds-thuoc-dailymed.csv và dictionary_terms.csv
-    translate  dịch các từ còn thiếu trong từ điển bằng DeepSeek; có từ mới thì build lại
-
-7 cột văn bản (15-21) giữ tiếng Anh, không dịch ở ETL này.
-Backend gọi trực tiếp: pipeline.run(Settings(...), log) -> dict tổng kết.
-"""
-
 import csv
 import json
 import os

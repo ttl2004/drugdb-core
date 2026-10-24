@@ -1,8 +1,3 @@
-"""
-Cột 13 — Đường dùng, tra từ điển duong_dung (vd ORAL -> Uống).
-Chưa có trong từ điển thì giữ tiếng Anh, viết hoa chữ đầu.
-"""
-
 from etl2_csdl_qg.constants import ROUTE_NOT_APPLICABLE
 
 HEADER = "Đường dùng"

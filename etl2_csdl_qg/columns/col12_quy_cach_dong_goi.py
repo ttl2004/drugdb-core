@@ -1,12 +1,3 @@
-"""
-Cột 12 — Quy cách đóng gói, vd "Hộp 3 vỉ x 10 viên".
-
-Ghép từ cây bao bì (drug_package) của thuốc. Tên bao bì tra từ điển bao_bi, đơn vị đếm
-tra từ điển don_vi_dem (theo dạng bào chế), đơn vị đo tra từ điển don_vi.
-Từ chưa có trong từ điển thì giữ tiếng Anh viết thường.
-Một thuốc có nhiều quy cách thì nối bằng "; ".
-"""
-
 from etl2_csdl_qg.common.formatting import format_number
 from etl2_csdl_qg.common.strength import unit_text
 

@@ -1,8 +1,3 @@
-"""
-formatting.py — Định dạng giá trị theo kiểu file mẫu CSDL Dược (số, ngày, tên).
-"""
-
-
 # Định dạng số theo kiểu Việt Nam: bỏ phần thập phân thừa, dấu thập phân là dấu phẩy.
 # Ví dụ: "10.0" -> "10", "4.2" -> "4,2". Không phải số thì giữ nguyên.
 def format_number(value):

@@ -1,9 +1,3 @@
-"""
-Cột 20 — Khuyến cáo. Tiếng Anh.
-Gộp theo thứ tự: Boxed Warning (34066-1), Warnings and Precautions (43685-7),
-Warnings (34071-1), Precautions (42232-9).
-"""
-
 from etl2_csdl_qg.common.label_text import (choose_passages, is_kit, join_passages,
                                             outermost_sections, sections_by_code, sections_of,
                                             texts_of)

@@ -1,9 +1,3 @@
-"""
-input_data.py — Đọc các CSV của ETL 1 vào bộ nhớ và chọn danh sách thuốc cần xuất.
-
-Mọi module cột đọc dữ liệu từ đối tượng InputData tạo ở đây, không tự đọc file.
-"""
-
 import csv
 import json
 import os

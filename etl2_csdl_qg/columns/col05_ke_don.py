@@ -1,7 +1,3 @@
-"""
-Cột 5 — Là thuốc kê đơn: "Có" nếu loại tài liệu là nhãn thuốc kê đơn / vắc xin / dẫn xuất huyết tương.
-"""
-
 from etl2_csdl_qg.constants import PRESCRIPTION_DOC_TYPES
 
 HEADER = "Là thuốc kê đơn (*)"

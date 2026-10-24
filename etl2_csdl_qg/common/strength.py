@@ -1,7 +1,3 @@
-"""
-strength.py — Tên và hàm lượng hoạt chất của thuốc (dùng cho cột 3, 9, 14).
-"""
-
 from etl2_csdl_qg.common.formatting import format_number
 
 

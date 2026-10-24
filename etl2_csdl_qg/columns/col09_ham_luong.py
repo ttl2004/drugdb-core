@@ -1,7 +1,3 @@
-"""
-Cột 9 — Hàm lượng: hàm lượng các hoạt chất nối bằng "; ", vd "500mg; 65mg".
-"""
-
 from etl2_csdl_qg.common.strength import active_ingredients
 
 HEADER = "Hàm lượng"

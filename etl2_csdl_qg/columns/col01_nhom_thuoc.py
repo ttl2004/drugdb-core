@@ -1,7 +1,3 @@
-"""
-Cột 1 — Nhóm thuốc: Vắc xin / Sinh phẩm / Nguyên liệu làm thuốc / Dược liệu / Hóa dược.
-"""
-
 HEADER = "Nhóm thuốc (*)"
 
 

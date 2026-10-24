@@ -1,7 +1,3 @@
-"""
-Cột 10 — Nhà sản xuất: tổ chức ở tầng sâu nhất trong cây tác giả của nhãn (do ETL 1 chọn).
-"""
-
 HEADER = "Nhà sản xuất"
 
 

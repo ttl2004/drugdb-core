@@ -1,14 +1,3 @@
-"""
-run_etl2.py — Điểm chạy ETL 2 (CSV của ETL 1 -> 21 cột CSDL Dược) từ dòng lệnh.
-Cấu hình mặc định lấy từ .env.
-
-Cách dùng (từ thư mục Test-New-ETL):
-    python -I run_etl2.py                     # build -> translate (dịch từ còn thiếu rồi build lại)
-    python -I run_etl2.py --steps build       # chỉ tạo 21 cột, không gọi API
-    python -I run_etl2.py --steps translate   # chỉ dịch từ còn thiếu (cần đã build trước)
-    python -I run_etl2.py --input output/etl1 # đọc CSV của lần chạy ETL 1 mới
-"""
-
 import argparse
 import os
 import sys

@@ -1,8 +1,3 @@
-"""
-deepseek.py — Gọi API DeepSeek (dạng chat completions). Chỉ file này biết nhà cung cấp LLM;
-đổi sang nhà cung cấp khác thì chỉ sửa ở đây.
-"""
-
 import json
 import time
 import urllib.error

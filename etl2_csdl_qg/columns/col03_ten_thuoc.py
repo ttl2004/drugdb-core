@@ -1,8 +1,3 @@
-"""
-Cột 3 — Tên thuốc. Không có tên thương mại thì dùng tên chung (generic).
-Nhiều thuốc cùng tên nhưng khác hàm lượng thì nối hàm lượng vào tên, vd "Paracetamol 500mg".
-"""
-
 import re
 
 from etl2_csdl_qg.columns import col09_ham_luong

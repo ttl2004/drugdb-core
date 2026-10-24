@@ -1,13 +1,3 @@
-"""
-dictionary_terms.py — Bổ sung bản dịch cho các từ còn thiếu trong từ điển.
-
-Đọc dictionary_terms.csv (danh sách từ do bước build xuất ra), rồi với mỗi từ điển:
-  - từ đã được người dùng gõ tay bản dịch trong dictionary_terms.csv: chép sang file từ điển,
-    không gọi API;
-  - từ còn trống: gửi LLM dịch theo nhóm 100 từ, ghi thêm vào cuối file từ điển.
-File từ điển chỉ được ghi thêm, không sửa các dòng đã có.
-"""
-
 import csv
 import json
 import os

@@ -1,7 +1,3 @@
-"""
-Cột 2 — Mã định danh thuốc: mã NDC của thuốc.
-"""
-
 HEADER = "Mã định danh thuốc (*)"
 
 

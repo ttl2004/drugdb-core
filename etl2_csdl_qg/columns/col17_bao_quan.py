@@ -1,8 +1,3 @@
-"""
-Cột 17 — Cách bảo quản: mục Storage and Handling (LOINC 44425-7). Tiếng Anh.
-Không có thì lấy mục con có tiêu đề chứa "stor" trong mục How Supplied (LOINC 34069-5).
-"""
-
 from etl2_csdl_qg.common.label_text import (children_of, choose_passages, first_section_by_title,
                                             is_kit, join_passages, sections_by_code, sections_of,
                                             texts_for_code, texts_of)

@@ -1,10 +1,3 @@
-"""
-prompts.py — Chỉ dẫn (prompt) gửi cho LLM khi dịch từng từ điển.
-
-Mỗi yêu cầu gửi một mảng JSON các từ tiếng Anh; mô hình phải trả về mảng JSON
-bản dịch cùng độ dài, cùng thứ tự.
-"""
-
 ROUTE = """You translate drug route-of-administration terms (FDA SPL route names) into Vietnamese pharmacy terminology, as used on Vietnamese drug registrations.
 Examples: ORAL -> Uống; INTRAVENOUS -> Tiêm tĩnh mạch; TOPICAL -> Dùng ngoài; OPHTHALMIC -> Nhỏ mắt; SUBLINGUAL -> Ngậm dưới lưỡi.
 Every answer must start with an action verb: Uống, Tiêm, Dùng, Nhỏ, Đặt, Ngậm, Hít, Dán, Rửa.

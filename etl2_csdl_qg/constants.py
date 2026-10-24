@@ -1,7 +1,3 @@
-"""
-constants.py — Hằng số dùng chung của ETL 2.
-"""
-
 # Loại tài liệu bị bỏ: CSDL Dược chỉ quản lý thuốc dùng cho người
 EXCLUDED_DOC_TYPES = [
     "OTC ANIMAL DRUG LABEL",

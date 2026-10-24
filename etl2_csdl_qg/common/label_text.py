@@ -1,10 +1,3 @@
-"""
-label_text.py — Lấy văn bản từ cây mục nhãn (label_section.jsonl) cho 7 cột văn bản (cột 15-21).
-
-Mỗi cột lấy các mục theo mã LOINC (vd 34067-9 = Indications and Usage). Mã đứng sau
-trong danh sách là dự phòng khi không có mã đứng trước.
-"""
-
 import re
 
 

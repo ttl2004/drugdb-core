@@ -1,7 +1,3 @@
-"""
-Cột 14 — Thành phần: tên hoạt chất + hàm lượng, mỗi chất một dòng (nối bằng "; " và xuống dòng).
-"""
-
 from etl2_csdl_qg.common.formatting import capitalize_name
 from etl2_csdl_qg.common.strength import active_ingredients
 

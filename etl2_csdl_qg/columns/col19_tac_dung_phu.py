@@ -1,7 +1,3 @@
-"""
-Cột 19 — Tác dụng phụ: mục Adverse Reactions (LOINC 34084-4). Tiếng Anh.
-"""
-
 from etl2_csdl_qg.common.label_text import text_for_codes
 
 HEADER = "Tác dụng phụ"

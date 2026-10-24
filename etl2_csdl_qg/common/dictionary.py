@@ -1,11 +1,3 @@
-"""
-dictionary.py — Từ điển Anh -> Việt cho các cột tra từ (đường dùng, bao bì, đơn vị đếm, đơn vị).
-
-Mỗi từ điển là một file CSV hai cột tieng_anh,tieng_viet. Trong lúc tạo 21 cột, mọi từ
-được tra đều được ghi nhớ, để cuối cùng xuất ra dictionary_terms.csv: danh sách từ đã gặp,
-từ nào chưa có bản dịch (cần chạy bước translate hoặc dịch tay).
-"""
-
 import csv
 import os
 
